@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   description: "Leading strategy consultancy specializing in global payment methods, e-commerce trends, and market intelligence across North America, Europe, Asia-Pacific, and Latin America.",
   keywords: "payment methods, digital wallets, payment analytics, e-commerce intelligence, payment trends, market research, payment consulting",
   authors: [{ name: "PaymentScope Analytics" }],
+  metadataBase: new URL('https://homtagu-ai.github.io/tet'),
   openGraph: {
     title: "PaymentScope Analytics | Global Payment Methods Intelligence",
     description: "Expert payment methods intelligence and market analysis for global markets",

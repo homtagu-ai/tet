@@ -5,8 +5,8 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  basePath: '',
-  assetPrefix: '',
+  basePath: '/tet',
+  assetPrefix: '/tet',
 }
 
 module.exports = nextConfig
