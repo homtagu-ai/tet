@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Mail, MapPin, Phone, Send } from 'lucide-react'
 import { Metadata } from 'next'
+import MapboxMap from '@/components/MapboxMap'
 
 export const metadata: Metadata = {
   title: 'Contact Us | PaymentScope Analytics',
@@ -278,6 +279,11 @@ export default function ContactPage() {
           </div>
           
           <div className="rounded-lg overflow-hidden shadow-lg border bg-white">
+            <MapboxMap />
+          </div>
+
+          {/* Old map code - replaced with component
+          <div className="rounded-lg overflow-hidden shadow-lg border bg-white">
             <div id="map" style={{ width: '100%', height: '480px' }} />
             <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css' rel='stylesheet' />
             <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js' />
@@ -381,6 +387,7 @@ export default function ContactPage() {
               });
             ` }} />
           </div>
+          */}
 
           <div className="grid md:grid-cols-4 gap-6 mt-12">
             <Card className="text-center">
