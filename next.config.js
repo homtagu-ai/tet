@@ -5,8 +5,8 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  basePath: '/tet',
-  assetPrefix: '/tet',
+  basePath: process.env.NODE_ENV === 'production' ? '/tet' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/tet' : '',
 }
 
 module.exports = nextConfig
