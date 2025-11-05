@@ -282,12 +282,13 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-center mb-4">North America E-commerce Payment Methods</h3>
                 <div className="bg-white rounded-lg p-4 shadow-sm">
                   <Image 
-                    src="/images/charts/417133455-3636927237.jpeg"
+                    src="/tet/images/charts/417133455-3636927237.jpeg"
                     alt="North America payment methods for e-commerce - Digital wallet 37%, Credit card 33%, Debit card 18%"
                     width={600}
                     height={400}
                     className="w-full h-auto"
                     priority
+                    unoptimized
                   />
                 </div>
                 <p className="text-sm text-muted-foreground text-center mt-3">
@@ -313,11 +314,12 @@ export default function Home() {
 
           <div className="max-w-6xl mx-auto bg-white rounded-lg p-8 shadow-lg mb-12">
             <Image 
-              src="/images/charts/417133455-6907577603.jpeg"
+              src="/tet/images/charts/417133455-6907577603.jpeg"
               alt="Forecast 2026 Payment methods in five world regions - Market share by region"
               width={1400}
               height={800}
               className="w-full h-auto"
+              unoptimized
             />
             <p className="text-sm text-muted-foreground text-center mt-4">
               Source: PCMI, 2024. "2024 Payments Megatrends"
@@ -453,11 +455,12 @@ export default function Home() {
 
           <div className="max-w-5xl mx-auto bg-white rounded-lg p-8 shadow-lg mb-12">
             <Image 
-              src="/images/charts/417133455-7873108749.jpeg"
+              src="/tet/images/charts/417133455-7873108749.jpeg"
               alt="Payment methods in the United States - E-commerce vs Point of Sale comparison"
               width={1200}
               height={600}
               className="w-full h-auto"
+              unoptimized
             />
             <p className="text-sm text-muted-foreground text-center mt-4">
               Source: Worldpay, 2024. "The Global Payments Report 2024"
